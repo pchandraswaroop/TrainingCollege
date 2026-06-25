@@ -1,7 +1,7 @@
 import { useState } from "react";
 import LiveCalculator from "./components/LiveCal";
 import Counter from "./components/Counter";
-import List from "./components/List";
+import Lists from "./components/Lists";
 export default function App() {
   const [num1, setNum1] = useState();
   const [num2, setNum2] = useState();
@@ -60,7 +60,7 @@ export default function App() {
       </div>
       <LiveCalculator />
       <Counter />
-      <List />
+      <Lists />
     </>
   );
 }
